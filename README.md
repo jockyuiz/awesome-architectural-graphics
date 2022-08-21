@@ -2,7 +2,7 @@
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A collection of papers about recent computer graphics research that involved potential architectural applications. Mainly focus on architectural geometry, vector fields, shape analysis, procedural design, etc.
+A collection of papers about computer graphics research projects in the last 4 years that involved potential architectural applications. Mainly focus on architectural geometry, vector fields, shape analysis, inverse CAD design, etc.
 
 > Feel free to create a PR or an issue.
 
@@ -29,7 +29,7 @@ A collection of papers about recent computer graphics research that involved pot
 | --- | --- | --- |
 | [Deep Learning for Free-Hand Sketch: A Survey](https://ieeexplore.ieee.org/abstract/document/9706366) | TPAMI 2022 | [[code]](https://github.com/PengBoXiangShang/torchsketch) |
 
-## 1. Datasets
+## 1. Creative ideas & design
 Here `Vector strokes` means having *svg* data. `With photos` means having the photo-sketch paired data.
 
 <table>
@@ -235,9 +235,9 @@ Here `Vector strokes` means having *svg* data. `With photos` means having the ph
 
 
 
-## 2. Sketch-Synthesis Approaches
+## 2. Architectural Geometry 
 
-### 1) Semantic Concept-to-sketch
+### 1) Curve network
 
 
 <table>
@@ -248,26 +248,30 @@ Here `Vector strokes` means having *svg* data. `With photos` means having the ph
     <td><strong>Code/Project Link</strong></td>
   </tr>
   <tr>
-    <td rowspan="8"><strong>Instance-level</strong></td>
-    <td> <a href="https://openreview.net/pdf?id=Hy6GHpkCW">A Neural Representation of Sketch Drawings (sketch-rnn)</a> </td> 
-    <td> ICLR 2018 </td> 
+    <td rowspan="8"><strong>Curve-study</strong></td>
+    <td> <a href="http://www-labs.iro.umontreal.ca/~bmpix/curve_networks/files/curve_networks.pdf">Stability-Aware Simplification of Curve Networks</a> </td> 
+    <td> SIGGRAPH 2022 </td> 
     <td> 
-      <a href="https://github.com/tensorflow/magenta/tree/master/magenta/models/sketch_rnn">[Code]</a> 
-      <a href="https://magenta.tensorflow.org/sketch-rnn-demo">[Project]</a> 
-      <a href="https://magenta.tensorflow.org/assets/sketch_rnn_demo/index.html">[Demo]</a> 
+      <a href="https://github.com/wwwnev/Stability-Aware-Simplification-of-Curve-Networks">[Code]</a> 
+      <a href="http://www-labs.iro.umontreal.ca/~bmpix/curve_networks/">[Project]</a> 
+      <a href="https://siggraph2022.hubb.me/fe/schedule-builder/sessions/937885">[Presentation]</a> 
     </td>
   </tr>
   <tr>
-    <td> <a href="https://arxiv.org/pdf/1709.04121.pdf">Sketch-pix2seq: a Model to Generate Sketches of Multiple Categories</a> </td> 
-    <td>  </td> 
+    <td> <a href="https://lgg.epfl.ch/publications/2021/Weaving/paper.pdf">3D Weaving with Curved Ribbons</a> </td> 
+    <td> SIGGRAPH 2021 </td> 
     <td> 
-      <a href="https://github.com/MarkMoHR/sketch-pix2seq">[Code]</a> 
+      <a href="https://lgg.epfl.ch/publications/2021/Weaving/index.php">[Project]</a> 
+      <a href="https://lgg.epfl.ch/publications/2021/Weaving/vis_app/index.html">[Web Demo]</a>
     </td>
   </tr>
   <tr>
-    <td> <a href="https://idvxlab.com/papers/2019AAAI_Sketcher_Cao.pdf">AI-Sketcher : A Deep Generative Model for Producing High-Quality Sketches</a> </td> 
-    <td> AAAI 2019 </td> 
-    <td> <a href="https://facex.idvxlab.com/">[Project]</a> </td>
+    <td> <a href="https://research-explorer.app.ist.ac.at/download/9817/10150/elastic-curves-paper.pdf">THE DESIGN SPACE OF PLANE ELASTIC CURVES</a> </td> 
+    <td> SIGGRAPH 2021 </td> 
+    <td> 
+      <a href="http://visualcomputing.ist.ac.at/publications/2021/TDSOPEC/">[Project]</a> 
+      <a href="http://pub.ist.ac.at/~chafner/ElasticCurves2021/elastic-curves-code.zip">[Code]</a>
+    </td>
   </tr>
   <tr>
     <td> <a href="https://arxiv.org/pdf/1901.03427.pdf">Stroke-based sketched symbol reconstruction and segmentation (stroke-rnn)</a> </td> 
@@ -306,7 +310,7 @@ Here `Vector strokes` means having *svg* data. `With photos` means having the ph
 
 ---
 
-### 2) Photo-to-sketch
+### 2) Discrete nets/meshes
 
 - vector image generation
 
@@ -471,7 +475,7 @@ Here `Vector strokes` means having *svg* data. `With photos` means having the ph
 
 ---
 
-### 3) Text/Attribute-to-sketch
+### 3) Deployable system
 
 | Level | Paper | Source | Code/Project Link |
 | --- | --- | --- | --- |
@@ -567,7 +571,7 @@ c) Raster-to-Vector (a.k.a. Vectorization)
 
 
 
-## 3. Vector Graphics Generation
+## 3. Inverse CAD Modeling
 
 Here we focus on learning-based vector graphics generation **without** depending on vector training data, and traditional vectorization algorithms.
 
