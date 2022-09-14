@@ -2,7 +2,7 @@
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A collection of papers about computer graphics research projects in the last 4 years that involved potential architectural applications. Mainly focus on architectural geometry, vector fields, shape analysis, inverse CAD design, etc.
+A collection of papers about computer graphics research projects in the last few years that involved potential architectural applications. Mainly focus on architectural geometry, vector fields, shape analysis, inverse CAD design, etc.
 
 > Feel free to create a PR or an issue.
 
@@ -10,24 +10,24 @@ A collection of papers about computer graphics research projects in the last 4 y
 
 **Outlines**
 
-- [0. Survey](#0-survey)
-- [1. Datasets](#1-datasets)
-- [2. Sketch-Synthesis Approaches](#2-sketch-synthesis-approaches)
-  - [1) Semantic Concept-to-sketch](#1-semantic-concept-to-sketch)
-  - [2) Photo-to-sketch](#2-photo-to-sketch)
-  - [3) Text/Attribute-to-sketch](#3-textattribute-to-sketch)
-  - [4) 3D shape-to-sketch](#4-3d-shape-to-sketch)
-  - [5) Sketch(vector)-to-sketch(vector)](#5-sketchvector-to-sketchvector)
-  - [6) Art-to-sketch](#6-art-to-sketch)
-- [3. Vector Graphics Generation](#3-vector-graphics-generation)
+- [1. Design Synthesis](#0-Creative-ideas-&-design)
+  - [1) 2D Floorplan synthesis](#1-semantic-concept-to-sketch)
+  - [2) 3D Shape generation](#2-photo-to-sketch)
+- [2. (Inverse) CAD Modeling](#1-datasets)
+  - [1) Sketch-to-CAD](#1-semantic-concept-to-sketch)
+  - [2) Photo-to-CAD](#2-photo-to-sketch)
+  - [3) Text/Attribute-to-CAD](#3-textattribute-to-sketch)
+  - [4) Procedural Modeling](#4-3d-shape-to-sketch)
+- [3. Geometry Optimization](#2-sketch-synthesis-approaches)(Topology Optimization Excluded)
+  - [1) Fabrication-oriented Geometry](#1-semantic-concept-to-sketch)
+  - [2) Structure-oriented Geometry](#2-photo-to-sketch)
+  - [3) Deployment-oriented Geometry](#3-textattribute-to-sketch)
+  - [4) Curve/Ribbon/Crease](#4-3d-shape-to-sketch)
+- [4. Directional Field](#3-vector-graphics-generation)  
+- [5. Design Space](#3-vector-graphics-generation)
 
 ---
 
-## 0. Survey
-
-| Paper | Source | Code/Project Link  |
-| --- | --- | --- |
-| [Deep Learning for Free-Hand Sketch: A Survey](https://ieeexplore.ieee.org/abstract/document/9706366) | TPAMI 2022 | [[code]](https://github.com/PengBoXiangShang/torchsketch) |
 
 ## 1. Creative ideas & design
 Here `Vector strokes` means having *svg* data. `With photos` means having the photo-sketch paired data.
